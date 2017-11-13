@@ -27,19 +27,20 @@ By recognizing the potential outbreak and the vulnerability of hospital workers,
 
 Three different graph types will be used in the simulation:
 1.	A real-world graph of contacts in a hospital in Lyon, France, which come as two data files:
-o	An edge-list graph dataset of order 75 and size 1139
-o	A dictionary file explaining the title of each node/person (patient, doctor, nurse, or administration staff)
+> An edge-list graph dataset of order 75 and size 1139
+> A dictionary file explaining the title of each node/person (patient, doctor, nurse, or administration staff)
 
 2.	A randomly generated Erdos-Renyi graph
-o	Roughly the same proportion of as in the real-world graph: 1000 nodes and 15000 edges
-o	The same proportion of patient with the real-world graph: 38.7%
+> Roughly the same proportion of as in the real-world graph: 1000 nodes and 15000 edges
+> The same proportion of patient with the real-world graph: 38.7%
 
 3.	A randomly generated Watts-Strogatz graph
-o	The same order, size, and proportion of patient with the Erdos-Renyi graph
+> The same order, size, and proportion of patient with the Erdos-Renyi graph
+
 All three graphs have the same properties:
-	Node represents a person (patient, doctor, nurse, or administration staff)
-	Edge represents close physical interaction (contact)
-	Non-directed
-Although in reality one acts as a source of infection carrier and the other acts as a receiver, we assume an infection can be transmitted so long as a contact happens between the two persons regardless of the source
-	Non-regular and non-complete
+> Node represents a person (patient, doctor, nurse, or administration staff)
+> Edge represents close physical interaction (contact)
+> Non-directed
+Although in reality one acts as a source of infection carrier and the other acts as a receiver, we assume an infection can be transmitted so long as a contact happens between the two persons regardless of the sourc
+> Non-regular and non-complete
 
